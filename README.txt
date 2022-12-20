@@ -25,11 +25,17 @@ Body ={
   }
 
 
+
+
+
+
 //GET ALL USER
 
 URL  = localhost:8080/api/v1/Users
 MEATHOD = GET
 Http Headers = "Content-Type: application/json" 
+
+
 
 
 
@@ -46,6 +52,10 @@ Body ={
     "Email": "Sincere@april.biz",
     "Phone_number" : 123456789
   }
+
+
+
+
 
 // DELETE USER
 
