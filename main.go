@@ -36,7 +36,6 @@ func requestHandler(w http.ResponseWriter, req *http.Request) {
 	ctx := context.Background()
 
 	client, err := mongo.Connect(ctx, options.Client().ApplyURI("mongodb+srv://dark:lordvishal@cluster0.pppaw.mongodb.net/BugsMirror"))
-	// client, err := mongo.Connect(ctx, options.Client().ApplyURI("mongodb+srv://dark:lordvishal@cluster0.pppaw.mongodb.net/BugsMirror"))
 
 	if err != nil {
 
